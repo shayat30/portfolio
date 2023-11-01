@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: #f1f1f1;
+}
+
+a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+.bg-light {
+    --bs-bg-opacity: 0;
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+    margin: 20px 20px;
+}
+.navbar-brand {
+    color: #4183c4 !important;
+    font-size: 2rem;
+}
+li.nav-item {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: gray !important;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #666666;
+}
+
+
+
+li {
+    list-style: none;
+}
+
+
+a.logo {
+    color: #4183c4;
+}
+
+a.logo:hover {
+    border-bottom: 4px solid #4183c4;
+    padding-bottom: 10px;
+}
+
+ul.dropdow {
+    display: flex;
+    justify-content: flex-end;
+}
+
+a.link-drop {
+    color: #666666;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Poppins;
+    margin-right: 30px;
+}
+
+a.link-drop:hover {
+    border-bottom: 4px solid #4183c4;
+    padding-bottom: 10px;
+}
+
+h2.heading-intro {
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: poppins;
+    text-align: center;
+    color: #666666;
+    margin: 10px;
+}
+span.intro-span {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 5px 8px;
+    color: #4183c4;
+}
+h3.heading-two {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #666666;
+    padding: 10px;
+}
+p.paragraph {
+    color: #666666;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 0 20%;
+    padding-bottom: 3%;
+    text-align: justify;
+}
+.butto-logo {
+    text-align: center;
+}
+button {
+    width: 130px;
+    height: 65px;
+    border: 2px solid #4183c4;
+    border-radius: 4px;
+    color: #4183c4;
+    font-size: 18px;
+    font-weight: 500;
+    /* position: relative; */
+}
+button:hover {
+    background-color: #4183c4;
+    color: white;
+
+}
+.fa-brands{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+    color: #666666;
+    margin: 0px 0px 0px 6px;
+}
+.fa-brands:hover {
+    border-bottom: 4px solid #4183c4;
+    color: #4183c4;
+    padding-bottom: 10px;
+} 
+
+
+
+.project {
+    padding-top: 6%;
+}
+.project-card {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+h2.project-heading {
+    text-align: center;
+    font-size: 43px;
+    font-weight: 700;
+    color: #666666;
+    padding: 10px 0px;
+}
+.card-one {
+    width: 320px;
+    min-height: 320px;
+    background-color: #ffffff;
+    box-shadow: 5px 8px 10px 10px rgb(185, 194, 168);
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 5px;
+}
+h2.card-heading {
+    font-size: 30px;
+    color: #666666;
+    padding: 20px 0px;
+    font-weight: 700;
+}
+p.card-paragraph {
+    font-size: 18px;
+    font-weight: 500;
+    color: #666666;
+}
+
+ul.Technology li {
+    font-weight: 600;
+    display: inline-block;
+    padding: 10px 8px;
+    color: #666666;
+}
+ol, ul {
+    padding-left: 0px;
+}
+.icon-two {
+    padding-top: 20px;
+}
+i.fa-solid.fa-link {
+    color: #666666;
+    padding-left: 8px;
+}
+i.fa-solid:hover {
+    border-bottom: 4px solid #4183c4;
+    color: #4183c4;
+    padding-bottom: 10px;
+} 
+h2.skill-heading {
+    text-align: center;
+    color: #666666;
+    font-size: 43px;
+    font-weight: 700;
+    padding-top: 10%;
+    padding-bottom: 3%;
+}
+.basic-language{
+    display: flex;
+    justify-content: center;
+}
+.software{
+    display: flex;
+    justify-content: center;
+}
+.labery{
+    display: flex;
+    justify-content: center;
+}
+p.cards {
+    width: 130px;
+    height: 40px;
+    padding-top: 8px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    box-shadow: 8px 8px 20px #666666;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #666666;
+}
+.contact-section {
+    text-align: center;
+}
+.heading-contact{
+    text-align: center;
+    color: #666666;
+    font-size: 43px;
+    font-weight: 700;
+    padding-top: 10%;
+    padding-bottom: 3%;
+}
+.last-section {
+    padding: 60px 0px 33px 0px;
+    text-align: center;
+}
+h2.last-heading {
+    font-size: 20px;
+    font-weight: 700;
+    color: #666666;
+}
